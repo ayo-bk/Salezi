@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cds",
+  "info": {
+    "singularName": "cd",
+    "pluralName": "cds",
+    "displayName": "Cd",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Price": {
+      "type": "decimal"
+    },
+    "Illustration": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Date": {
+      "type": "date"
+    },
+    "Artist": {
+      "type": "string"
+    },
+    "Quantity": {
+      "type": "integer"
+    }
+  }
+}

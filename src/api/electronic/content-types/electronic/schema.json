@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "electronics",
+  "info": {
+    "singularName": "electronic",
+    "pluralName": "electronics",
+    "displayName": "Electronic",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Price": {
+      "type": "decimal"
+    },
+    "Illustration": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Quantity": {
+      "type": "integer"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

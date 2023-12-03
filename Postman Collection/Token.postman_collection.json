@@ -1,0 +1,169 @@
+{
+	"info": {
+		"_postman_id": "4b67464e-dd56-4775-bc8d-50f9b035d3b1",
+		"name": "Token",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30691346",
+		"_collection_link": "https://blue-station-15941.postman.co/workspace/Salezi---Token~cff8c2b6-e711-402e-867b-f225585cba39/collection/30691346-4b67464e-dd56-4775-bc8d-50f9b035d3b1?action=share&source=collection_link&creator=30691346"
+	},
+	"item": [
+		{
+			"name": "Super Admin Ayodélé - Token",
+			"item": [
+				{
+					"name": "http://localhost:1346/admin/login",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"email\": \"ayodele.bansou-kpinde@epitech.digital\", \r\n\"password\": \"!2023!STRAPi\", \r\n\"rememberMe\": false\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:1346/admin/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "1346",
+							"path": [
+								"admin",
+								"login"
+							]
+						},
+						"description": "Token"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Fnac Manager",
+			"item": [
+				{
+					"name": "http://localhost:1346/admin/login",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"email\": \"fnacmanager@gmail.com\", \r\n\"password\": \"Fnacmanager@gmail.com1\", \r\n\"rememberMe\": false\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:1346/admin/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "1346",
+							"path": [
+								"admin",
+								"login"
+							]
+						},
+						"description": "Token"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Seller - Token",
+			"item": [
+				{
+					"name": "http://localhost:1346/admin/login",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzAxMjcxOTYxLCJleHAiOjE3MDM4NjM5NjF9.droBBQJ_IuyUVn5MwXc_psGglXGT9q950gxx_cOOYCc",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"seller@gmail.com\",\r\n    \"password\":\"Seller@gmail.com1\",\r\n    \"rememberMe\": false\r\n\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:1346/admin/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "1346",
+							"path": [
+								"admin",
+								"login"
+							]
+						},
+						"description": "Token"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Super Admin Luciayo - Token",
+			"item": [
+				{
+					"name": "http://localhost:1346/admin/login",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"luciayo@gmail.com\",\r\n    \"password\":\"Luciayo@gmail.com1\",\r\n    \"rememberMe\": false\r\n\r\n}\r\n\r\n\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:1346/admin/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "1346",
+							"path": [
+								"admin",
+								"login"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

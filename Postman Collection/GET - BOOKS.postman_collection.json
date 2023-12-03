@@ -1,0 +1,135 @@
+{
+	"info": {
+		"_postman_id": "77619559-ca9d-4763-b68c-90595644f810",
+		"name": "GET - BOOKS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30691346",
+		"_collection_link": "https://blue-station-15941.postman.co/workspace/Salezi---Token~cff8c2b6-e711-402e-867b-f225585cba39/collection/30691346-77619559-ca9d-4763-b68c-90595644f810?action=share&source=collection_link&creator=30691346"
+	},
+	"item": [
+		{
+			"name": "GET- Fnac Manager",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwiaWF0IjoxNzAxNDQ5NjkzLCJleHAiOjE3MDQwNDE2OTN9.CeY_hi9Hg-Ljw93DLZzBmhI9FxO8QiGh_kGjq9CB0yU",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:1346/content-manager/collection-types/api::book.book",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1346",
+					"path": [
+						"content-manager",
+						"collection-types",
+						"api::book.book"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET - Seller",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwiaWF0IjoxNzAxNDQ5NjkzLCJleHAiOjE3MDQwNDE2OTN9.CeY_hi9Hg-Ljw93DLZzBmhI9FxO8QiGh_kGjq9CB0yU",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:1346/content-manager/collection-types/api::book.book",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1346",
+					"path": [
+						"content-manager",
+						"collection-types",
+						"api::book.book"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET - Super Admin Luciayo",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiaWF0IjoxNzAxNDUyMDc0LCJleHAiOjE3MDQwNDQwNzR9.cSRcR-Gp9mdYhrkFzNKjsIf5z4a5Bg76fobT2lghfBY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:1346/content-manager/collection-types/api::book.book",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1346",
+					"path": [
+						"content-manager",
+						"collection-types",
+						"api::book.book"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET - Super Admin Ayo",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzAxNDUxODIxLCJleHAiOjE3MDQwNDM4MjF9.VGlnsi3VM90CKV_LSqQ_xpBClBM4lWUKYVsXbFTpQ4g",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:1346/content-manager/collection-types/api::book.book",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1346",
+					"path": [
+						"content-manager",
+						"collection-types",
+						"api::book.book"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,171 @@
+{
+	"info": {
+		"_postman_id": "66407247-235b-45eb-8300-6c072867d9b5",
+		"name": "POST - BOOKS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30691346",
+		"_collection_link": "https://blue-station-15941.postman.co/workspace/Salezi---Token~cff8c2b6-e711-402e-867b-f225585cba39/collection/30691346-66407247-235b-45eb-8300-6c072867d9b5?action=share&source=collection_link&creator=30691346"
+	},
+	"item": [
+		{
+			"name": "POST - Seller",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwiaWF0IjoxNzAxNDQ5NjkzLCJleHAiOjE3MDQwNDE2OTN9.CeY_hi9Hg-Ljw93DLZzBmhI9FxO8QiGh_kGjq9CB0yU",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"id\": 7,\r\n\"Name\": \"TEST B\", \r\n\"Price\": 46, \r\n\"Quantity\": 46\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:1346/content-manager/collection-types/api::book.book",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1346",
+					"path": [
+						"content-manager",
+						"collection-types",
+						"api::book.book"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST - Fnac Manager",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwiaWF0IjoxNzAxNDQ5NjkzLCJleHAiOjE3MDQwNDE2OTN9.CeY_hi9Hg-Ljw93DLZzBmhI9FxO8QiGh_kGjq9CB0yU",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"id\": 7,\r\n\"Name\": \"TEST B\", \r\n\"Price\": 46, \r\n\"Quantity\": 46\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:1346/content-manager/collection-types/api::book.book",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1346",
+					"path": [
+						"content-manager",
+						"collection-types",
+						"api::book.book"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST - Super Admin Ayo",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzAxNDUxODIxLCJleHAiOjE3MDQwNDM4MjF9.VGlnsi3VM90CKV_LSqQ_xpBClBM4lWUKYVsXbFTpQ4g",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"id\": 6,\r\n\"Name\": \"TEST A\", \r\n\"Price\": 46, \r\n\"Quantity\": 46\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:1346/content-manager/collection-types/api::book.book",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1346",
+					"path": [
+						"content-manager",
+						"collection-types",
+						"api::book.book"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST - Super Admin Luciayo",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiaWF0IjoxNzAxNDUyMDc0LCJleHAiOjE3MDQwNDQwNzR9.cSRcR-Gp9mdYhrkFzNKjsIf5z4a5Bg76fobT2lghfBY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"id\": 8,\r\n\"Name\": \"TEST C\", \r\n\"Price\": 47, \r\n\"Quantity\": 47\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:1346/content-manager/collection-types/api::book.book",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1346",
+					"path": [
+						"content-manager",
+						"collection-types",
+						"api::book.book"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
