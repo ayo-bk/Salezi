@@ -1,4 +1,4 @@
-# Salezi---Ayod-l-BANSOU-Luciano-BARBERIS
+# Salezi : Ayodélé BANSOU & Luciano BARBERIS
 
 Projet Salezi
 
