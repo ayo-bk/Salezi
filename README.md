@@ -55,3 +55,7 @@ Projet Salezi
 - Add a new SQLite data source.
 
 - Specify the path of the SQLite database to use.
+
+## Swagger UI : API's Documentaion
+
+- http://localhost:1348/documentation/v1.0.0#/Book/delete%2Fbooks%2F%7Bid%7D
